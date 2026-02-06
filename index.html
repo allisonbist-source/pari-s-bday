@@ -17,11 +17,12 @@
         body {
             font-family: 'Georgia', serif;
             overflow-x: hidden;
+            overflow-y: auto;
             background: linear-gradient(135deg, #1a0033 0%, #4a0e4e 50%, #1a0033 100%);
             min-height: 100vh;
             display: flex;
             justify-content: center;
-            align-items: center;
+            align-items: flex-start;
             padding: 10px;
             position: relative;
             margin: 0;
@@ -86,24 +87,24 @@
             body {
                 padding: 5px;
                 align-items: flex-start;
-                padding-top: 20px;
+                padding-top: 10px;
             }
 
             .card {
-                padding: 60px 20px 40px 20px !important;
-                border-radius: 20px;
-                margin-top: 40px !important;
+                padding: 50px 18px 35px 18px !important;
+                border-radius: 25px;
+                margin-top: 35px !important;
                 margin-bottom: 20px !important;
                 width: 100%;
             }
 
             .crown {
-                top: -35px !important;
-                font-size: 50px !important;
+                top: -30px !important;
+                font-size: 45px !important;
             }
 
             .crown::after {
-                font-size: 20px !important;
+                font-size: 18px !important;
             }
 
             /* Corner ornaments smaller on mobile */
@@ -135,20 +136,20 @@
             }
 
             .header h1 {
-                font-size: 32px !important;
+                font-size: 28px !important;
             }
 
             .name {
-                font-size: 38px !important;
+                font-size: 34px !important;
             }
 
             .nickname {
-                font-size: 24px !important;
+                font-size: 22px !important;
             }
 
             .age-badge {
-                font-size: 24px !important;
-                padding: 12px 25px !important;
+                font-size: 22px !important;
+                padding: 11px 24px !important;
             }
 
             .cake {
@@ -156,12 +157,12 @@
             }
 
             .message {
-                padding: 20px !important;
-                margin: 20px 0 !important;
+                padding: 18px !important;
+                margin: 18px 0 !important;
             }
 
             .message p {
-                font-size: 16px !important;
+                font-size: 15px !important;
                 line-height: 1.6 !important;
             }
 
@@ -204,22 +205,22 @@
 
         @media (max-width: 480px) {
             body {
-                padding-top: 15px;
+                padding-top: 8px;
             }
 
             .card {
-                padding: 50px 15px 30px 15px !important;
-                margin-top: 35px !important;
+                padding: 45px 15px 30px 15px !important;
+                margin-top: 30px !important;
                 margin-bottom: 15px !important;
             }
 
             .crown {
-                font-size: 45px !important;
-                top: -32px !important;
+                font-size: 40px !important;
+                top: -28px !important;
             }
 
             .crown::after {
-                font-size: 18px !important;
+                font-size: 16px !important;
             }
 
             /* Even smaller corner ornaments */
@@ -397,7 +398,7 @@
         .cake {
             font-size: 80px;
             animation: cakeBounce 2s ease-in-out infinite;
-            filter: drop-shadow(0 10px 5px rgba(0, 0, 0, 0.1));
+            filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.2));
         }
 
         @keyframes cakeBounce {
@@ -783,9 +784,9 @@
             <div class="header">
                 <h1>🎉 Happy 13th Birthday 🎉</h1>
                 <div class="name">Pranisha Poudel</div>
-                <div class="nickname"> Pari 💝</div>
-                <div style="margin-top: 15px;">
-                    <span class="age-badge"> Turning 14 🌟</span>
+                <div class="nickname">(Pari) 💝</div>
+                <div style="margin-top: 20px;">
+                    <span class="age-badge">13 Years of Awesomeness! 🌟</span>
                 </div>
             </div>
 
